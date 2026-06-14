@@ -1,3 +1,48 @@
+# 🌍 WanderLust
+
+A full-stack Airbnb-inspired travel listing platform where users can discover, create, and review unique stays around the world.
+
+## 🔗 Live Demo
+👉 [wanderlust-majorproject-fbc9.onrender.com](https://wanderlust-majorproject-fbc9.onrender.com)
+
+---
+
+## ✨ Features
+
+- 🔐 User Authentication (Register, Login, Logout) with Passport.js
+- 🏠 Full CRUD for Listings (Create, Read, Update, Delete)
+- 🖼️ Image Upload via Cloudinary
+- ⭐ Reviews & Star Ratings system
+- 🗺️ Interactive Map using Leaflet.js + OpenStreetMap (no API key required)
+- 📍 Auto-geocoding of listing locations using Nominatim API
+- 🔒 Authorization (only owners can edit/delete their listings)
+- 💬 Flash messages for user feedback
+- ✅ Server-side & client-side form validation using Joi
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- EJS (Embedded JavaScript Templates)
+- Bootstrap 5
+- Leaflet.js
+- CSS3
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Passport.js (passport-local, passport-local-mongoose)
+
+**Services:**
+- Cloudinary (image storage)
+- Nominatim API (geocoding)
+- OpenStreetMap (map tiles)
+
+---
+
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -5,7 +50,7 @@
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Sudhanshu183developer/WanderLust-MajorProject.git
-cd wanderlust
+cd WanderLust-MajorProject
 ```
 
 ### 2. Install dependencies
@@ -29,7 +74,6 @@ node app.js
 
 ### 5. Open in browser
 http://localhost:8080
-
 ---
 
 ## 🔑 Environment Variables
@@ -44,22 +88,24 @@ http://localhost:8080
 
 ---
 
----
-
 ## 🚀 Future Improvements
 
-- [ ] Deploy to Render / Railway
 - [ ] Add search and filter functionality
 - [ ] Add booking/reservation system
 - [ ] Add user profile pages
 - [ ] Add category filters (beach, mountains, etc.)
+- [ ] Add payment integration
 
 ---
-## Live 
-https://wanderlust-majorproject-fbc9.onrender.com
+
 ## 👨‍💻 Author
 
-**Sudhanshu**
-- GitHub: https://github.com/Sudhanshu183developer
-- LinkedIn: https://www.linkedin.com/in/sudhanshu-sachan-b26ab4349/
+**Sudhanshu Sachan**
+- GitHub: [@Sudhanshu183developer](https://github.com/Sudhanshu183developer)
+- LinkedIn: [Sudhanshu Sachan](https://www.linkedin.com/in/sudhanshu-sachan-b26ab4349/)
+
 ---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
