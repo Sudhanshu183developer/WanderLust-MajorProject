@@ -43,6 +43,7 @@ http://localhost:8080
 | `CLOUD_API_SECRET` | Cloudinary API secret |
 
 ---
+
 ---
 
 ## 🚀 Future Improvements
@@ -60,5 +61,5 @@ https://wanderlust-majorproject-fbc9.onrender.com
 
 **Sudhanshu**
 - GitHub: https://github.com/Sudhanshu183developer
-- LinkedIn: linkedin.com/in/sudhanshu-sachan
+- LinkedIn: https://www.linkedin.com/in/sudhanshu-sachan-b26ab4349/
 ---
